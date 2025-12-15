@@ -30,7 +30,7 @@ def Clean(text):
   lemmatized_tokens = [WordNetLemmatizer().lemmatize(token) for token in filtered_tokens]
   return " ".join(lemmatized_tokens)
 
-HIIII
+
 
 if st.button("Predict Class"):
     cleaned_text = Clean(tweet)
